@@ -2,497 +2,523 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: django-cms 2.1.0-beta\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-15 13:46+0100\n"
-"PO-Revision-Date: 2010-01-05 01:51+0100\n"
-"Last-Translator: Flavio Curella <flavio.curella@leftloft.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2010-07-01 14:34+0200\n"
+"PO-Revision-Date: 2010-07-01 14:33+0100\n"
+"Last-Translator: Simon Hedberg <simon@in-formation.se>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
 
-#: plugin_base.py:99
+#: plugin_base.py:100
 msgid "Advanced options"
-msgstr "Opzioni avanzate"
+msgstr "Avancerade inställningar"
 
-#: admin/forms.py:25
+#: admin/forms.py:28
 msgid "Title"
-msgstr "Titolo"
+msgstr "Rubrik"
 
-#: admin/forms.py:26
+#: admin/forms.py:29
 msgid "The default title"
-msgstr "Titolo predefinito"
+msgstr "Standardrubrik"
 
-#: admin/forms.py:27
+#: admin/forms.py:30
 msgid "Slug"
 msgstr "Slug"
 
-#: admin/forms.py:28
+#: admin/forms.py:31
 msgid "The part of the title that is used in the URL"
-msgstr "La parte del titolo che viene utilizzato nell' URL"
+msgstr "Den del av rubriken som används i URL:en"
 
-#: admin/forms.py:29
+#: admin/forms.py:32
 msgid "Language"
-msgstr "Lingua"
+msgstr "Språk"
 
-#: admin/forms.py:30
+#: admin/forms.py:33
 msgid "The current language of the content fields."
-msgstr "La lingua corrente dei campi contenuti."
+msgstr "Redigera i detta språk"
 
-#: admin/forms.py:73
+#: admin/forms.py:82
 msgid "Another page with this slug already exists"
-msgstr "Un'altra pagina con questo slug esiste già"
-
-#: admin/forms.py:93
-msgid "Menu Title"
-msgstr "Menu titolo"
-
-#: admin/forms.py:94
-msgid "Overwrite what is displayed in the menu"
-msgstr "Sovrascrivere ciò che viene visualizzato nel menu"
-
-#: admin/forms.py:95
-msgid "Page Title"
-msgstr "Titolo pagina"
-
-#: admin/forms.py:96
-msgid "Overwrites what is displayed at the top of your browser or in bookmarks"
-msgstr "Sovrascrive quello che viene visualizzata nella parte superiore del browser o in segnalibri"
-
-#: admin/forms.py:97
-msgid "Application"
-msgstr "Applicazione"
-
-#: admin/forms.py:99
-msgid "Hook application to this page."
-msgstr "Aggancia applicazione a questa pagina."
+msgstr "En annan sida med samma slug finns redan"
 
 #: admin/forms.py:100
-msgid "Overwrite URL"
-msgstr "Sovrascrivere URL"
+msgid "Menu Title"
+msgstr "Menyrubrik"
 
 #: admin/forms.py:101
-msgid "Keep this field empty if standard path should be used."
-msgstr "Mantenere questo campo vuoto se il percorso standard dovrebbe essere usato."
+msgid "Overwrite what is displayed in the menu"
+msgstr "Ange för att visa annan text än sidrubrik i menyn"
+
+#: admin/forms.py:102
+msgid "Page Title"
+msgstr "Sidrubrik"
+
+#: admin/forms.py:103
+msgid "Overwrites what is displayed at the top of your browser or in bookmarks"
+msgstr "Anger vad som visas i webbläsarens topp eller i bokmärken"
+
+#: admin/forms.py:104
+msgid "Application"
+msgstr "Applikation"
+
+#: admin/forms.py:106
+msgid "Hook application to this page."
+msgstr "Koppla applikation till denna sida."
 
 #: admin/forms.py:107
-msgid "Redirect"
-msgstr "Redirect"
+msgid "Overwrite URL"
+msgstr "Ändra URL"
 
 #: admin/forms.py:108
+msgid "Keep this field empty if standard path should be used."
+msgstr "Lämna tomt om den vanliga sökvägen ska användas."
+
+#: admin/forms.py:114
+msgid "Redirect"
+msgstr "Omdirigera"
+
+#: admin/forms.py:115
 msgid "Redirects to this URL."
-msgstr "Reindirizza a questo URL."
+msgstr "Omdirigerar till denna URL"
 
-#: admin/forms.py:110
+#: admin/forms.py:117
 msgid "A description of the page sometimes used by search engines."
-msgstr "Una descrizione della pagina talvolta usato dai motori di ricerca."
+msgstr "En beskrivning som ibland används av sökmotorer."
 
-#: admin/forms.py:112
+#: admin/forms.py:119
 msgid "A list of comma seperated keywords sometimes used by search engines."
-msgstr "Una lista di parole chiave separate da virgola talvolta usato dai motori di ricerca."
+msgstr "En kommaseparerad lista med sökord som ibland används av sökmotorer."
 
-#: admin/forms.py:120
+#: admin/forms.py:134
 msgid "A page with this reverse URL id exists already."
-msgstr "Una pagina con questo id URL inverso esiste già."
+msgstr "En sida med detta URL-id finns redan."
 
-#: admin/forms.py:127
+#: admin/forms.py:141
 msgid "Invalid URL, use /my/url format."
-msgstr "URL non valido, utilizza il formato /mia/url."
+msgstr "Felaktig URL, använd följande format: /min/url."
 
-#: admin/forms.py:138 admin/forms.py:139 migrations/0001_initial.py:41
+#: admin/forms.py:152 admin/forms.py:153 migrations/0001_initial.py:41
 #: models/permissionmodels.py:16
 msgid "user"
-msgstr "utente"
+msgstr "användare"
 
-#: admin/forms.py:171
-msgid "Add page permission requires also access to children, or descendants, otherwise added page can't be changed by its creator."
-msgstr "Il permesso \"Aggiungi pagina\" richiede anche l'accesso ai figli o discendenti, altrimenti la pagina aggiunta non può essere cambiata dal suo creatore."
+#: admin/forms.py:185
+msgid ""
+"Add page permission requires also access to children, or descendants, "
+"otherwise added page can't be changed by its creator."
+msgstr ""
+"Tillåtelse att lägga till sida kräver också tillgång till barn eller "
+"efterkommande annars kan inte tillagd sida redigeras av den som skapat den."
 
-#: admin/forms.py:174
+#: admin/forms.py:188
 msgid "Add page permission also requires edit page permission."
-msgstr "Il permesso \"Aggiungere pagina\" richiede anche il permesso \"Modificare pagina\"."
+msgstr "Tillåtelse att lägga till sida kräver tillåtelse att redigera sidor."
 
-#: admin/forms.py:201
+#: admin/forms.py:215
 msgid "Please select user or group first."
-msgstr "Si prega di selezionare un utente o un gruppo."
+msgstr "Ange användare eller grupp först."
 
-#: admin/forms.py:208 admin/forms.py:215 admin/forms.py:219
+#: admin/forms.py:222 admin/forms.py:229 admin/forms.py:233
 #: templates/admin/cms/page/change_form.html:65
-#: templates/admin/cms/page/plugin_change_form.html:69
+#: templates/admin/cms/page/plugin_change_form.html:70
 msgid "Add"
-msgstr "Aggiungere"
+msgstr "Lägg till"
 
-#: admin/forms.py:209 admin/forms.py:216 admin/forms.py:220
+#: admin/forms.py:223 admin/forms.py:230 admin/forms.py:234
 msgid "Change"
-msgstr "Cambiare"
+msgstr "Ändra"
 
-#: admin/forms.py:210 admin/forms.py:217 admin/forms.py:221
+#: admin/forms.py:224 admin/forms.py:231 admin/forms.py:235
 #: templates/admin/page_submit_line.html:5
 #: templates/admin/cms/page/menu_item.html:44
 msgid "Delete"
-msgstr "Eliminare"
+msgstr "Radera"
 
-#: admin/forms.py:211
+#: admin/forms.py:225
 msgid "Recover (any) pages"
-msgstr "Recuperare (qualsiasi) pagina"
+msgstr "Återskapa sidor"
 
-#: admin/forms.py:274
+#: admin/forms.py:288
 msgid "Notify user"
-msgstr "Notifica l'utente"
+msgstr "Meddela användare"
 
-#: admin/forms.py:275
-msgid "Send email notification to user about username or password change. Requires user email."
-msgstr "Inviare email di notifica per l'utente su un nome utente o modificare la password. Richiede email dell'utente."
+#: admin/forms.py:289
+msgid ""
+"Send email notification to user about username or password change. Requires "
+"user email."
+msgstr ""
+"Skicka e-postmeddelande till användare om användarnamn eller "
+"lösenordsförändring. E-postadress på användare krävs."
 
-#: admin/forms.py:295
+#: admin/forms.py:309
 msgid "New password"
-msgstr "Nuova password"
+msgstr "Nytt lösenord"
 
-#: admin/forms.py:297
+#: admin/forms.py:311
 msgid "New password confirmation"
-msgstr "Conferma Nuova password"
+msgstr "Nytt lösenord (bekräfta)"
 
-#: admin/forms.py:316
+#: admin/forms.py:330
 msgid "Email notification requires valid email address."
-msgstr "E-mail di notifica richiede indirizzo e-mail valido."
+msgstr "E-postmeddelande kräver en giltig e-postadress."
 
-#: admin/forms.py:318
-msgid "The permission to add new pages requires the permission to change pages!"
-msgstr "Il permesso di aggiungere nuove pagine richiede l'autorizzazione a modificare le pagine!"
+#: admin/forms.py:332
+msgid ""
+"The permission to add new pages requires the permission to change pages!"
+msgstr "Tillåtelse att lägga till sidor kräver tillåtelse att redigera sidor!"
 
-#: admin/forms.py:320
-msgid "The permission to add new users requires the permission to change users!"
-msgstr "Il permesso di aggiungere nuovi utenti richiede l'autorizzazione a modificare gli utenti!"
+#: admin/forms.py:334
+msgid ""
+"The permission to add new users requires the permission to change users!"
+msgstr ""
+"Tillåtelse att lägga till användare kröver tillåtelse att redigera användare!"
 
-#: admin/forms.py:322
+#: admin/forms.py:336
 msgid "To add permissions you also need to edit them!"
-msgstr "Per aggiungere le autorizzazioni è necessario anche poterle modificare!"
+msgstr "För att lägga till rättigheter måste du också redigera dem."
 
-#: admin/pageadmin.py:111 admin/pageadmin.py:127
+#: admin/pageadmin.py:118 admin/pageadmin.py:134
 msgid "Hidden"
-msgstr "Nascosto"
+msgstr "Dold"
 
-#: admin/pageadmin.py:122
+#: admin/pageadmin.py:129
 msgid "Basic Settings"
-msgstr "Impostazioni di base"
+msgstr "Grundinställningar"
 
-#: admin/pageadmin.py:125
+#: admin/pageadmin.py:132
 msgid "Note: This page reloads if you change the selection. Save it first."
-msgstr "Nota: Questa pagina viene ricaricata se si cambia la selezione. Salvare la pagina prima."
+msgstr "Notera: Sidan laddas på nytt om du ändrar detta. Spara först."
 
-#: admin/pageadmin.py:131
+#: admin/pageadmin.py:138
 msgid "Advanced Settings"
-msgstr "Impostazioni avanzate"
+msgstr "Avancerade inställningar"
 
-#: admin/pageadmin.py:140
+#: admin/pageadmin.py:147
 msgid "SEO Settings"
-msgstr "Impostazioni SEO"
+msgstr "SEO-inställningar"
 
-#: admin/pageadmin.py:463
+#: admin/pageadmin.py:477
 msgid "higher"
-msgstr "superiore"
+msgstr "högre"
 
-#: admin/pageadmin.py:629
+#: admin/pageadmin.py:649
 msgid "Database error"
-msgstr "Errore del database"
+msgstr "Databaserror"
 
-#: admin/pageadmin.py:714 migrations/0001_initial.py:13
+#: admin/pageadmin.py:748 migrations/0001_initial.py:13
 #: migrations/0001_initial.py:26 migrations/0001_initial.py:40
 #: migrations/0001_initial.py:78 migrations/0003_remove_placeholder.py:21
-#: models/pagemodel.py:72 models/permissionmodels.py:68
-#: models/pluginmodel.py:38 models/titlemodels.py:22
-#: plugins/inherit/forms.py:9 plugins/link/forms.py:9
+#: models/pagemodel.py:82 models/permissionmodels.py:68
+#: models/titlemodels.py:22 plugins/inherit/forms.py:9 plugins/link/forms.py:9
 #: plugins/link/models.py:13 plugins/link/migrations/0001_initial.py:19
 #: plugins/picture/models.py:22 plugins/teaser/models.py:15
 msgid "page"
-msgstr "pagina"
+msgstr "sida"
 
-#: admin/pageadmin.py:837
+#: admin/pageadmin.py:873
 msgid "Page was successfully approved."
-msgstr "La pagina è stata approvata con successo."
+msgstr "Sidan godkändes."
 
-#: admin/pageadmin.py:891
+#: admin/pageadmin.py:928
 #, python-format
 msgid "%(name)s object with primary key %(key)r does not exist."
-msgstr "%(name)s  oggetto con chiave primaria %(key)r non esiste."
-
-#: admin/pageadmin.py:894
-msgid "There only exists one translation for this page"
-msgstr "Esiste solo una traduzione per questa pagina"
-
-#: admin/pageadmin.py:909
-#, python-format
-msgid "Title and plugins with language %(language)s was deleted"
-msgstr "Titolo e plugins con lingua %(language)s sono stati eliminati"
+msgstr "%(name)s objekt med primär nycket %(key)r existerar inte."
 
 #: admin/pageadmin.py:931
+msgid "There only exists one translation for this page"
+msgstr "Det finns endast en språkversion av denna sida"
+
+#: admin/pageadmin.py:946
+#, python-format
+msgid "Title and plugins with language %(language)s was deleted"
+msgstr "Rubrik och plugins för språket %(language)s raderades"
+
+#: admin/pageadmin.py:969
 msgid "Are you sure?"
-msgstr "Sei sicuro?"
+msgstr "Är du säker?"
 
-#: admin/pageadmin.py:994
+#: admin/pageadmin.py:1029
 msgid "You do not have permission to publish this page"
-msgstr "Non hai il permesso di pubblicare questa pagina"
+msgstr "Du har inte tillåtelse att publicera denna sida"
 
-#: admin/pageadmin.py:1012
+#: admin/pageadmin.py:1047
 msgid "You do not have permission to change this page's in_navigation status"
-msgstr "Non si dispone dell'autorizzazione per modificare lo status di in_navigation per questa pagina"
+msgstr "Du har inte tillåtelse att ändra denna sidas 'i navigation'-status"
 
-#: admin/pageadmin.py:1047 admin/pageadmin.py:1081
+#: admin/pageadmin.py:1092 admin/pageadmin.py:1125
 msgid "You do not have permission to change this page"
-msgstr "Non si dispone dell'autorizzazione per modificare questa pagina"
+msgstr "Du har inte tillåtelse att redigera denna sida"
 
-#: admin/pageadmin.py:1051 admin/pageadmin.py:1083
+#: admin/pageadmin.py:1096 admin/pageadmin.py:1127
 msgid "Language must be set to a supported language!"
-msgstr "Lingua deve essere impostato su una delle lingue supportate!"
+msgstr "Språket måste vara ett av de som stödjs"
 
-#: admin/pageadmin.py:1063
+#: admin/pageadmin.py:1108
 #, python-format
 msgid "%(plugin_name)s plugin added to %(placeholder)s"
-msgstr "%(plugin_name)s plugin aggiunto a %(placeholder)s "
+msgstr "%(plugin_name)s plugin har lagts till %(placeholder)s"
 
-#: admin/pageadmin.py:1085
+#: admin/pageadmin.py:1129
 msgid "Language must be different than the copied language!"
-msgstr "La lingua scelta deve essere differente dalla lingua della pagina copiata!"
+msgstr "Språket måste vara ett annat än det som kopieras!"
 
-#: admin/pageadmin.py:1131
-#, fuzzy, python-format
+#: admin/pageadmin.py:1138
+#, python-format
 msgid "Copied %(language)s plugins to %(placeholder)s"
-msgstr "%(plugin_name)s plugin aggiunto a %(placeholder)s "
+msgstr "%(language)s plugin har kopierats till %(placeholder)s"
 
-#: admin/pageadmin.py:1204
+#: admin/pageadmin.py:1213
 #, python-format
-msgid "%(plugin_name)s plugin edited at position %(position)s in %(placeholder)s"
-msgstr "%(plugin_name)s plugin modificato alla posizione %(position)s in %(placeholder)s "
+msgid ""
+"%(plugin_name)s plugin edited at position %(position)s in %(placeholder)s"
+msgstr ""
+"%(plugin_name)s plugin har redigerats på plats %(position)s i %(placeholder)s"
 
-#: admin/pageadmin.py:1259
+#: admin/pageadmin.py:1271
 msgid "Plugins where moved"
-msgstr "I plugins sono stati spostati"
+msgstr "Plugins har flyttats"
 
-#: admin/pageadmin.py:1281
+#: admin/pageadmin.py:1293 admin/placeholderadmin.py:210
 #, python-format
-msgid "%(plugin_name)s plugin at position %(position)s in %(placeholder)s was deleted."
-msgstr "%(plugin_name)s plugin alla posizione %(position)s in %(placeholder)s è stato eliminato."
+msgid ""
+"%(plugin_name)s plugin at position %(position)s in %(placeholder)s was "
+"deleted."
+msgstr ""
+"%(plugin_name)s plugin på position %(position)s i %(placeholder)s har "
+"raderats."
 
-#: admin/permissionadmin.py:112 models/permissionmodels.py:74
+#: admin/permissionadmin.py:113 models/permissionmodels.py:74
 msgid "Page permissions"
-msgstr "Pagina autorizzazioni"
-
-#: admin/permissionadmin.py:113
-msgid "User & Group permissions"
-msgstr "Autorizzazioni Utenti e Gruppi"
+msgstr "Rättigheter för sida"
 
 #: admin/permissionadmin.py:114
+msgid "User & Group permissions"
+msgstr "Användar- och grupprättigheter"
+
+#: admin/permissionadmin.py:115
 msgid "Page permissions management"
-msgstr "Pagina di gestione delle autorizzazioni"
+msgstr "Administrera rättigheter för sida"
 
 #: admin/useradmin.py:22
 msgid "User details"
-msgstr "Dettagli utente"
+msgstr "Användardetaljer"
 
 #: admin/useradmin.py:23
 msgid "Groups"
-msgstr "Gruppi"
+msgstr "Grupper"
 
-#: admin/useradmin.py:33 templates/cms/toolbar/toolbar.html:855
+#: admin/useradmin.py:33 templates/cms/toolbar/toolbar.html:76
 msgid "Password"
-msgstr "Password"
-
-#: admin/widgets.py:58
-msgid "Add Another"
-msgstr "Aggiungi un altro"
+msgstr "Lösenord"
 
 #: admin/dialog/forms.py:8
 msgid "Copy permissions"
-msgstr "Copia delle autorizzazioni"
+msgstr "Kopieringsrättigheter"
 
 #: admin/dialog/forms.py:11
 msgid "Copy moderation"
-msgstr "Copia moderazione"
+msgstr "Kopieringsbegränsningar"
 
 #: conf/patch.py:26
 msgid "Inherit the template of the nearest ancestor"
-msgstr "Ereditano il modello dell'antenato più vicino"
+msgstr "Ärv mall"
 
 #: docs/templates/defindex.html:2
 msgid "Overview"
-msgstr "Panoramica"
+msgstr "Översikt"
 
 #: docs/templates/defindex.html:11
 msgid "Indices and tables:"
-msgstr "Indici e tabelle:"
+msgstr "Index och tabeller"
 
 #: docs/templates/defindex.html:14
 msgid "Complete Table of Contents"
-msgstr "Indice completo dei contenuti"
+msgstr "Komplett innehållsförteckning"
 
 #: docs/templates/defindex.html:15
 msgid "lists all sections and subsections"
-msgstr "elenca tutte le sezioni e sottosezioni"
+msgstr "listar alla avdelningar och underavdelningar"
 
 #: docs/templates/defindex.html:16
 msgid "Search Page"
-msgstr "Pagina di ricerca"
+msgstr "Sök sida"
 
 #: docs/templates/defindex.html:17
 msgid "search this documentation"
-msgstr "Cerca nella documentazione"
+msgstr "sök i denna dokumentation"
 
 #: docs/templates/defindex.html:19 docs/templates/modindex.html:2
 #: docs/templates/modindex.html.py:13
 msgid "Global Module Index"
-msgstr "Modulo Indice Globale"
+msgstr "Modulindex"
 
 #: docs/templates/defindex.html:20
 msgid "quick access to all modules"
-msgstr "rapido accesso a tutti i moduli"
+msgstr "Snabb åtkomst till alla moduler"
 
 #: docs/templates/defindex.html:21
 msgid "General Index"
-msgstr "Indice Generale"
+msgstr "Allmänt index"
 
 #: docs/templates/defindex.html:22
 msgid "all functions, classes, terms"
-msgstr "tutte le funzioni, le classi, i termini"
+msgstr "alla funktioner, klasser och benämningar"
 
 #: docs/templates/genindex-single.html:2 docs/templates/genindex-split.html:2
 #: docs/templates/genindex-split.html:5 docs/templates/genindex.html:2
 #: docs/templates/genindex.html.py:5 docs/templates/genindex.html:48
 #: docs/templates/layout.html:131
 msgid "Index"
-msgstr "Indice"
+msgstr "Index"
 
 #: docs/templates/genindex-single.html:44
 #: docs/templates/genindex-split.html:14 docs/templates/genindex-split.html:27
 #: docs/templates/genindex.html:54
 msgid "Full index on one page"
-msgstr "Indice completo su una pagina"
+msgstr "Komplett index på en sida"
 
 #: docs/templates/genindex-split.html:7
 msgid "Index pages by letter"
-msgstr "Indicizza pagine per lettera"
+msgstr "Index med sidor efter bokstav"
 
 #: docs/templates/genindex-split.html:15
 msgid "can be huge"
-msgstr "può essere enorme"
+msgstr "kan vara stor"
 
 #: docs/templates/layout.html:10
 msgid "Navigation"
-msgstr "Navigazione"
+msgstr "Navigation"
 
 #: docs/templates/layout.html:42
 msgid "Table Of Contents"
-msgstr "Indice Dei Contenuti"
+msgstr "Innehållsförteckning"
 
 #: docs/templates/layout.html:48
 msgid "Previous topic"
-msgstr "Argomento precedente"
+msgstr "Föregående ämne"
 
 #: docs/templates/layout.html:50
 msgid "previous chapter"
-msgstr "Capitolo precedente"
+msgstr "föregående kapitel"
 
 #: docs/templates/layout.html:53
 msgid "Next topic"
-msgstr "Argomento successivo"
+msgstr "Nästa ämne"
 
 #: docs/templates/layout.html:55
 msgid "next chapter"
-msgstr "Capitolo successivo"
+msgstr "nästa kapitel"
 
 #: docs/templates/layout.html:60
 msgid "This Page"
-msgstr "Questa pagina"
+msgstr "Denna sida"
 
 #: docs/templates/layout.html:63
 msgid "Show Source"
-msgstr "Mostra sorgenti"
+msgstr "Visa källa"
 
 #: docs/templates/layout.html:73
 msgid "Quick search"
-msgstr "Ricerca rapida"
+msgstr "Snabbsök"
 
 #: docs/templates/layout.html:76
 msgid "Go"
-msgstr "Vai"
+msgstr "Kör"
 
 #: docs/templates/layout.html:81
 msgid "Enter search terms or a module, class or function name."
-msgstr "Inserisci i termini di ricerca o un modulo, classe o il nome della funzione."
+msgstr "Ange sökord eller en modul, klass eller funktionsnamn."
 
 #: docs/templates/layout.html:128
 msgid "About these documents"
-msgstr "A proposito di questi documenti"
+msgstr "Om dessa dokument"
 
 #: docs/templates/layout.html:134 docs/templates/search.html:2
 #: docs/templates/search.html.py:5
 msgid "Search"
-msgstr "Ricerca"
+msgstr "Sök"
 
 #: docs/templates/layout.html:137
 msgid "Copyright"
-msgstr "Copyright"
+msgstr "Upphovsrätt"
 
 #: docs/templates/modindex.html:36
 msgid "Deprecated"
-msgstr "Deprecato"
+msgstr "Avrådes från användning (föråldrat)"
 
 #: docs/templates/search.html:21
 msgid "search"
-msgstr "ricerca"
+msgstr "sök"
 
 #: docs/templates/search.html:25
 msgid "Search Results"
-msgstr "Risultati della ricerca"
+msgstr "Sökresultat"
 
 #: docs/templates/search.html:27
 msgid "Your search did not match any results."
-msgstr "La tua ricerca non ha dato alcun risultato."
+msgstr "Din sökning gav inget resultat."
+
+#: forms/fields.py:18
+msgid "Select a valid site"
+msgstr "Välj en giltig sajt"
+
+#: forms/fields.py:19
+msgid "Select a valid page"
+msgstr "Välj en giltig sida"
+
+#: forms/widgets.py:172
+msgid "Add Another"
+msgstr "Lägg till en till"
 
 #: migrations/0001_initial.py:12 migrations/0001_initial.py:24
 #: migrations/0001_initial.py:75 migrations/0003_remove_placeholder.py:18
 #: migrations/0010_5char_language.py:12 migrations/0010_5char_language.py:15
 #: migrations/0010_5char_language.py:22 migrations/0010_5char_language.py:25
-#: models/pluginmodel.py:42 models/titlemodels.py:11
+#: models/pluginmodel.py:44 models/titlemodels.py:11
 #: plugins/inherit/models.py:11
 msgid "language"
-msgstr "lingua"
+msgstr "språk"
 
 #: migrations/0001_initial.py:14 migrations/0004_textobjects.py:12
-#: migrations/0004_textobjects.py:22 models/pluginmodel.py:40
+#: migrations/0004_textobjects.py:22 models/pluginmodel.py:43
 msgid "position"
-msgstr "posizione"
+msgstr "position"
 
 #: migrations/0001_initial.py:15 migrations/0001_initial.py:29
-#: models/pluginmodel.py:44 models/titlemodels.py:23
+#: models/pluginmodel.py:46 models/titlemodels.py:23
 msgid "creation date"
-msgstr "data di creazione"
+msgstr "skapat datum"
 
 #: migrations/0001_initial.py:16 migrations/0001_initial.py:77
-#: migrations/0003_remove_placeholder.py:20 models/pluginmodel.py:41
+#: migrations/0003_remove_placeholder.py:20 models/placeholdermodel.py:27
 msgid "slot"
-msgstr "slot"
+msgstr "plats"
 
-#: migrations/0001_initial.py:18 models/pluginmodel.py:43
+#: migrations/0001_initial.py:18 models/pluginmodel.py:45
 msgid "plugin_name"
-msgstr "nome_plugin"
+msgstr "plugin-namn"
 
 #: migrations/0001_initial.py:25 migrations/0011_title_overwrites.py:12
 #: migrations/0011_title_overwrites.py:15 models/titlemodels.py:12
 #: models/titlemodels.py:13 models/titlemodels.py:21 plugins/file/models.py:26
 #: plugins/file/migrations/0001_initial.py:18 plugins/teaser/models.py:11
-#: plugins/twitter/models.py:6
+#: plugins/twitter/models.py:6 plugins/twitter/models.py:15
 #: templates/admin/cms/page/change_list_tree.html:6
 msgid "title"
-msgstr "titolo"
+msgstr "rubrik"
 
 #: migrations/0001_initial.py:28
 msgid "path"
-msgstr "percorso"
+msgstr "sökväg"
 
 #: migrations/0001_initial.py:30 models/titlemodels.py:14
 msgid "slug"
@@ -500,358 +526,384 @@ msgstr "slug"
 
 #: migrations/0001_initial.py:36
 msgid "everybody"
-msgstr "tutti"
+msgstr "alla"
 
 #: migrations/0001_initial.py:37 models/permissionmodels.py:20
 msgid "can edit"
-msgstr "può modificare"
+msgstr "kan redigera"
 
 #: migrations/0001_initial.py:38 models/permissionmodels.py:17
 msgid "group"
-msgstr "gruppo"
+msgstr "grupp"
 
 #: migrations/0001_initial.py:39 models/permissionmodels.py:24
 msgid "can publish"
-msgstr "può pubblicare"
+msgstr "kan publicera"
 
 #: migrations/0001_initial.py:42
 msgid "type"
-msgstr "tipo"
+msgstr "typ"
 
 #: migrations/0001_initial.py:44
 msgid "can change soft-root"
-msgstr "può cambiare la soft-root"
+msgstr "kan ändra rot"
 
 #: migrations/0001_initial.py:50 migrations/0006_apphook.py:34
 #: migrations/0006_apphook.py:62
 msgid "status"
-msgstr "stato"
+msgstr "status"
 
-#: migrations/0001_initial.py:53 models/pagemodel.py:51
+#: migrations/0001_initial.py:53
 msgid "navigation extenders"
-msgstr "estensori di navigazione"
+msgstr "navigationsanslutningar"
 
 #: migrations/0001_initial.py:54 migrations/0006_apphook.py:12
 #: migrations/0006_apphook.py:46 models/titlemodels.py:16
 msgid "has url overwrite"
-msgstr "può sovrascrivere URL"
+msgstr "har ändrad url"
 
 #: migrations/0001_initial.py:55 migrations/0006_apphook.py:49
 msgid "url overwrite"
-msgstr "sovrascrivere URL "
+msgstr "ändrad url"
 
 #: migrations/0001_initial.py:57
 msgid "author"
-msgstr "autore"
+msgstr "författare"
 
 #: migrations/0001_initial.py:58 migrations/0006_apphook.py:37
 msgid "reverse url id"
-msgstr "id url inverso"
+msgstr "omvänd url id"
 
-#: migrations/0001_initial.py:59 models/pagemodel.py:64
+#: migrations/0001_initial.py:59 models/pagemodel.py:71
 msgid "login required"
-msgstr "è richiesto il login"
+msgstr "login krävs"
 
-#: migrations/0001_initial.py:60 models/pagemodel.py:49
+#: migrations/0001_initial.py:60 models/pagemodel.py:56
 msgid "soft root"
-msgstr "soft root"
+msgstr "rot"
 
-#: migrations/0001_initial.py:63 models/pagemodel.py:47
+#: migrations/0001_initial.py:63 models/pagemodel.py:54
 msgid "publication end date"
-msgstr "data fine pubblicazione"
+msgstr "slutdatum för publicering"
 
-#: migrations/0001_initial.py:64 models/pagemodel.py:54
+#: migrations/0001_initial.py:64 models/pagemodel.py:61
 #: plugins/snippet/models.py:14
 msgid "template"
-msgstr "template"
+msgstr "mall"
 
-#: migrations/0001_initial.py:66 models/pagemodel.py:46
+#: migrations/0001_initial.py:66 models/pagemodel.py:53
 msgid "publication date"
-msgstr "data di pubblicazione"
+msgstr "publiceringsdatum"
 
-#: migrations/0001_initial.py:67 models/pagemodel.py:48
+#: migrations/0001_initial.py:67 models/pagemodel.py:55
 #: templates/admin/cms/page/change_list_tree.html:9
 msgid "in navigation"
-msgstr "in navigazione"
+msgstr "i navigation"
 
 #: migrations/0006_apphook.py:15 migrations/0007_apphook_longer.py:11
 #: migrations/0007_apphook_longer.py:17 models/titlemodels.py:17
 msgid "application"
-msgstr "applicazione"
+msgstr "applikation"
 
-#: migrations/0006_apphook.py:65 models/pagemodel.py:50
+#: migrations/0006_apphook.py:65 models/pagemodel.py:57
 msgid "id"
 msgstr "id"
 
 #: migrations/0008_redirects.py:11 models/titlemodels.py:18
 msgid "redirect"
-msgstr "redirect"
+msgstr "omdirigera"
 
 #: migrations/0009_added_meta_fields.py:12 models/titlemodels.py:20
 msgid "keywords"
-msgstr "parole chiave"
+msgstr "nyckelord"
 
 #: migrations/0009_added_meta_fields.py:15 models/titlemodels.py:19
 #: plugins/teaser/models.py:22
 msgid "description"
-msgstr "descrizione"
+msgstr "beskrivning"
 
 #: models/moderatormodels.py:24
 msgid "Current page"
-msgstr "Pagina corrente"
+msgstr "nuvarande sida"
 
 #: models/moderatormodels.py:25
 msgid "Page children (immediate)"
-msgstr "Pagina figlia (immediato)"
+msgstr "Sidans undernivå"
 
 #: models/moderatormodels.py:26
 msgid "Page and children (immediate)"
-msgstr "Pagina e figli (immediato)"
+msgstr "Sida och närmaste undernivå"
 
 #: models/moderatormodels.py:27
 msgid "Page descendants"
-msgstr "Pagina discendente"
+msgstr "Sidans undernivåer"
 
 #: models/moderatormodels.py:28
 msgid "Page and descendants"
-msgstr "Pagina e discendenti"
+msgstr "Sida och undernivåer"
 
 #: models/moderatormodels.py:44 templates/admin/cms/page/permissions.html:5
+#: templates/cms/toolbar/toolbar.html:99
 msgid "Page"
-msgstr "Pagina"
+msgstr "Sida"
 
 #: models/moderatormodels.py:45
 #: templates/admin/cms/page/moderation_messages.html:6
 #: templates/admin/cms/page/permissions.html:6
 msgid "User"
-msgstr "Utente"
+msgstr "Användare"
 
 #: models/moderatormodels.py:49 templatetags/cms_admin.py:65
 msgid "Moderate page"
-msgstr "Modera pagina"
+msgstr "Moderera sida"
 
 #: models/moderatormodels.py:50 templatetags/cms_admin.py:66
 msgid "Moderate children"
-msgstr "Modera figli"
+msgstr "Moderera närmaste undernivå"
 
 #: models/moderatormodels.py:51 templatetags/cms_admin.py:67
 msgid "Moderate descendants"
-msgstr "Modera discendenti"
+msgstr "Moderera undernivåer"
 
 #: models/moderatormodels.py:54 models/moderatormodels.py:55
 msgid "PageModerator"
-msgstr "Moderatore"
+msgstr "Sidmoderator"
 
 #: models/moderatormodels.py:97
 msgid "created"
-msgstr "creato"
+msgstr "skapad"
 
-#: models/moderatormodels.py:98 models/pagemodel.py:33
+#: models/moderatormodels.py:98 models/pagemodel.py:35
 msgid "changed"
-msgstr "cambiato"
+msgstr "ändrad"
 
 #: models/moderatormodels.py:99
 msgid "delete req."
-msgstr "rich. eliminazione"
+msgstr "radera krävs."
 
 #: models/moderatormodels.py:100
 msgid "move req."
-msgstr "rich. spostamento"
+msgstr "flytta krävs"
 
 #: models/moderatormodels.py:101
 msgid "publish req."
-msgstr "rich. pubblicazione"
+msgstr "publicera krävs"
 
 #: models/moderatormodels.py:102
 msgid "unpublish req."
-msgstr "rich. sospensione"
+msgstr "avpublicera krävs"
 
-#: models/moderatormodels.py:103 models/pagemodel.py:36
+#: models/moderatormodels.py:103 models/pagemodel.py:38
 msgid "approved"
-msgstr "approvato"
+msgstr "godkänd"
 
 #: models/moderatormodels.py:115
 msgid "Page moderator state"
-msgstr "stato del moderatore"
+msgstr "Sidmodereringsläge"
 
 #: models/moderatormodels.py:116
 msgid "Page moderator states"
-msgstr "stati del moderatore"
+msgstr "Sidmodereringslägen"
 
-#: models/pagemodel.py:34
+#: models/pagemodel.py:36
 msgid "req. app."
-msgstr "rich. app."
+msgstr "req. app."
 
-#: models/pagemodel.py:35 templates/admin/cms/page/menu_item.html:44
-#: templates/cms/toolbar/toolbar.html:885
-#: templates/cms/toolbar/toolbar.html:919 utils/moderator.py:91
+#: models/pagemodel.py:37 templates/admin/cms/page/menu_item.html:44
+#: templates/cms/toolbar/toolbar.html:106
+#: templates/cms/toolbar/toolbar.html:143 utils/moderator.py:89
 msgid "delete"
-msgstr "eliminare"
+msgstr "radera"
 
-#: models/pagemodel.py:37
+#: models/pagemodel.py:39
 msgid "app. par."
 msgstr "app. par."
 
-#: models/pagemodel.py:42
-msgid "created by"
-msgstr "creato da"
+#: models/pagemodel.py:43
+msgid "for logged in users only"
+msgstr "endast för inloggade användare"
 
-#: models/pagemodel.py:43 templates/admin/cms/page/change_list_tree.html:19
-msgid "changed by"
-msgstr "cambiato da"
-
-#: models/pagemodel.py:46
-msgid "When the page should go live. Status must be \"Published\" for page to go live."
-msgstr "Quando la pagina dovrebbe andare online. Lo stato deve essere \\ \"Pubblicato \" per la pagina per essere online."
-
-#: models/pagemodel.py:47
-msgid "When to expire the page. Leave empty to never expire."
-msgstr "Quando scade la pagina. Lasciare vuoto per non farla mai scadere."
+#: models/pagemodel.py:44
+msgid "for anonymous users only"
+msgstr "endast för anonyma användare"
 
 #: models/pagemodel.py:49
-msgid "All ancestors will not be displayed in the navigation"
-msgstr "Tutti gli antenati non verranno visualizzati nella barra di navigazione"
+msgid "created by"
+msgstr "skapad av"
 
-#: models/pagemodel.py:50
-msgid "An unique identifier that is used with the page_url templatetag for linking to this page"
-msgstr "Un identificativo univoco, che viene utilizzato con il templatetag page_url per riferirsi a questa pagina"
+#: models/pagemodel.py:50 templates/admin/cms/page/change_list_tree.html:19
+msgid "changed by"
+msgstr "ändrad av"
 
-#: models/pagemodel.py:52
-msgid "is published"
-msgstr "è pubblicato"
+#: models/pagemodel.py:53
+msgid ""
+"When the page should go live. Status must be \"Published\" for page to go "
+"live."
+msgstr ""
+"När sida ska gå live. Status måste vara \"Publicerad\" för att sidan ska gå "
+"live."
 
 #: models/pagemodel.py:54
-msgid "The template used to render the content."
-msgstr "Il modello utilizzato per il rendering del contenuto."
+msgid "When to expire the page. Leave empty to never expire."
+msgstr "När sidan ska utgå. Lämna blank för att inaktivera funktionen."
 
-#: models/pagemodel.py:55
-msgid "The site the page is accessible at."
-msgstr "Il sito a cui la pagina è accessibile."
-
-#: models/pagemodel.py:55
-msgid "site"
-msgstr "sito"
+#: models/pagemodel.py:56
+msgid "All ancestors will not be displayed in the navigation"
+msgstr "Alla ovanstående sidor kommer inte att visas i navigeringen"
 
 #: models/pagemodel.py:57
+msgid ""
+"An unique identifier that is used with the page_url templatetag for linking "
+"to this page"
+msgstr ""
+"Ett unikt id som används med mallkommandot page_url för att länka till denna "
+"sida"
+
+#: models/pagemodel.py:58
+msgid "attached menu"
+msgstr "tillfogad meny"
+
+#: models/pagemodel.py:59
+msgid "is published"
+msgstr "är publicerad"
+
+#: models/pagemodel.py:61
+msgid "The template used to render the content."
+msgstr "Mallen som används för att visa innehållet."
+
+#: models/pagemodel.py:62
+msgid "The site the page is accessible at."
+msgstr "Sajten som sidan är tillgänglig på."
+
+#: models/pagemodel.py:62
+msgid "site"
+msgstr "sajt"
+
+#: models/pagemodel.py:64
 msgid "moderator state"
-msgstr "stato del moderatore"
+msgstr "modereringsläge"
 
-#: models/pagemodel.py:65
-msgid "menu login required"
-msgstr "login menu richiesto"
+#: models/pagemodel.py:72
+msgid "menu visibility"
+msgstr "visning i meny"
 
-#: models/pagemodel.py:65
-msgid "only show this page in the menu if the user is logged in"
-msgstr "mostra solo questa pagina nel menù, se l'utente è connesso"
+#: models/pagemodel.py:72
+msgid "limit when this page is visible in the menu"
+msgstr "begränsa när denna sida ska visas i menyn"
 
-#: models/pagemodel.py:73
+#: models/pagemodel.py:83
 msgid "pages"
-msgstr "pagine"
+msgstr "sidor"
 
-#: models/pagemodel.py:179
+#: models/pagemodel.py:190
 msgid "Page was copied."
-msgstr "La pagina è stata copiata."
+msgstr "Sidan har kopierats"
 
-#: models/pagemodel.py:502
+#: models/pagemodel.py:495
 msgid "default"
-msgstr "predefinito"
+msgstr "standard"
 
 #: models/permissionmodels.py:21
 msgid "can add"
-msgstr "può aggiungere"
+msgstr "kan lägga till"
 
 #: models/permissionmodels.py:22
 msgid "can delete"
-msgstr "può eliminare"
+msgstr "kan ta bort"
 
 #: models/permissionmodels.py:23
 msgid "can change advanced settings"
-msgstr "può modificare le impostazioni avanzate"
+msgstr "kan ändra avancerade inställningar"
 
 #: models/permissionmodels.py:25
 msgid "can change permissions"
-msgstr "può cambiare i permessi"
+msgstr "kan ändra rättigheter"
 
 #: models/permissionmodels.py:25
 msgid "on page level"
-msgstr "il livello di pagina"
+msgstr "på sidnivå"
 
 #: models/permissionmodels.py:26
 msgid "can move"
-msgstr "può muovere"
+msgstr "kan flytta"
 
 #: models/permissionmodels.py:27
 msgid "can moderate"
-msgstr "può moderare"
+msgstr "kan moderera"
 
 #: models/permissionmodels.py:51
 msgid "can recover pages"
-msgstr "può recuperare le pagine"
+msgstr "kan återskapa sidor"
 
 #: models/permissionmodels.py:51
 msgid "can recover any deleted page"
-msgstr "può recuperare qualsiasi pagina cancellata"
+msgstr "kan återskapa alla sidor"
 
 #: models/permissionmodels.py:52
 msgid "If none selected, user haves granted permissions to all sites."
-msgstr "Se nessuno selezionato, l'utente ha concesse le autorizzazioni per tutti i siti."
+msgstr "Om ingen är vald har användaren rättigheter till alla sajter."
 
 #: models/permissionmodels.py:52
 msgid "sites"
-msgstr "siti"
+msgstr "sajter"
 
 #: models/permissionmodels.py:57
 msgid "Page global permission"
-msgstr "Permesso globale per la pagina"
+msgstr "Global rättighet för sidan"
 
 #: models/permissionmodels.py:58
 msgid "Pages global permissions"
-msgstr "Permessi globali per le pagine"
+msgstr "Globala rättigheter för sidor"
 
 #: models/permissionmodels.py:67 templates/admin/cms/page/permissions.html:14
 msgid "Grant on"
-msgstr "Grant su"
+msgstr "Tillåt"
 
 #: models/permissionmodels.py:73
 msgid "Page permission"
-msgstr "Permesso della pagina"
+msgstr "Sidrättighet"
 
 #: models/permissionmodels.py:87
 msgid "User (page)"
-msgstr "Utente (pagina)"
+msgstr "Användare (grupp)"
 
 #: models/permissionmodels.py:88
 msgid "Users (page)"
-msgstr "Utenti (pagina)"
+msgstr "Användare (sida)"
 
 #: models/permissionmodels.py:100
 msgid "User group (page)"
-msgstr "Gruppo di Utenti (pagina)"
+msgstr "Användare grupp (sida)"
 
 #: models/permissionmodels.py:101
 msgid "User groups (page)"
-msgstr "Gruppi di Utenti (pagina)"
+msgstr "Användare grupper (sida)"
+
+#: models/placeholdermodel.py:28 plugins/flash/models.py:10
+#: plugins/flash/migrations/0001_initial.py:16 plugins/video/models.py:14
+msgid "width"
+msgstr "bredd"
 
 #: models/titlemodels.py:13
 msgid "overwrite the title in the menu"
-msgstr "sovrascrivere il titolo nel menu"
+msgstr "ändra rubriken i menyn"
 
 #: models/titlemodels.py:15
 msgid "Path"
-msgstr "Percorso"
+msgstr "Sökväg"
 
 #: models/titlemodels.py:21
 msgid "overwrite the title (html title tag)"
-msgstr "sovrascrivere il titolo (tag title)"
+msgstr "ändra sidrubriken (title-taggen i html)"
 
 #: plugins/file/cms_plugins.py:9
 msgid "File"
-msgstr "File"
+msgstr "Fil"
 
 #: plugins/file/models.py:25 plugins/file/migrations/0001_initial.py:17
 #: plugins/flash/models.py:9 plugins/flash/migrations/0001_initial.py:18
 msgid "file"
-msgstr "file"
+msgstr "fil"
 
 #: plugins/flash/cms_plugins.py:11
 msgid "Flash"
@@ -859,122 +911,121 @@ msgstr "Flash"
 
 #: plugins/flash/models.py:9
 msgid "use swf file"
-msgstr "l'uso del file swf"
-
-#: plugins/flash/models.py:10 plugins/flash/migrations/0001_initial.py:16
-#: plugins/video/models.py:14
-msgid "width"
-msgstr "ampiezza"
+msgstr "använd swf-fil"
 
 #: plugins/flash/models.py:11 plugins/flash/migrations/0001_initial.py:19
 #: plugins/video/models.py:15
 msgid "height"
-msgstr "altezza"
+msgstr "höjd"
 
-#: plugins/flash/templates/cms/plugins/flash.html:3
+#: plugins/flash/templates/cms/plugins/flash.html:2
 msgid "Missing flash plugin."
-msgstr "Il plugin Flash non è installato."
+msgstr "Flash insticksprogram saknas"
 
-#: plugins/googlemap/cms_plugins.py:9
+#: plugins/googlemap/cms_plugins.py:11
 msgid "Google Map"
 msgstr "Google Map"
 
 #: plugins/googlemap/models.py:9
 msgid "map title"
-msgstr "titolo mappa"
+msgstr "karttitel"
 
 #: plugins/googlemap/models.py:11
 msgid "address"
-msgstr "indirizzo"
+msgstr "adress"
 
 #: plugins/googlemap/models.py:12
 msgid "zip code"
-msgstr "codice postale"
+msgstr "postnummer"
 
 #: plugins/googlemap/models.py:13
 msgid "city"
-msgstr "città"
+msgstr "stad"
 
 #: plugins/googlemap/models.py:15
 msgid "additional content"
-msgstr "contenuti aggiuntivi"
+msgstr "ytterligare innehåll"
 
 #: plugins/googlemap/models.py:16
 msgid "zoom level"
-msgstr "livello di zoom"
+msgstr "zoomnivå"
 
 #: plugins/googlemap/models.py:18
 msgid "latitude"
-msgstr "latitudine"
+msgstr "latitud"
 
 #: plugins/googlemap/models.py:19
 msgid "Use latitude & longitude to fine tune the map possiton."
-msgstr "Usa latitudine e longitudine per perfezionare la posizione della mappa."
+msgstr "Använd latitud och longitud för att finjustera positionen på kartan."
 
 #: plugins/googlemap/models.py:20
 msgid "longitude"
-msgstr "longitudine"
+msgstr "longitud"
 
 #: plugins/googlemap/models.py:22
 msgid "route planer title"
-msgstr "titolo del route planer"
+msgstr "ruttplanerartitel"
 
 #: plugins/googlemap/models.py:22
 msgid "Calculate your fastest way to here"
-msgstr "Calcola il tuo percorso più veloce fino a qui"
+msgstr "Beräkna snabbaste vägen hit"
 
 #: plugins/googlemap/models.py:23
 msgid "route planer"
-msgstr "route planer"
+msgstr "Ruttplanerare"
 
 #: plugins/googlemap/models.py:30
 msgid "Map"
-msgstr "Mappa"
+msgstr "Karta"
 
-#: plugins/googlemap/templates/cms/plugins/googlemap.html:73
+#: plugins/googlemap/templates/cms/plugins/googlemap.html:72
 msgid "Your address"
-msgstr "Il tuo indirizzo"
+msgstr "Din adress"
 
-#: plugins/googlemap/templates/cms/plugins/googlemap.html:76
+#: plugins/googlemap/templates/cms/plugins/googlemap.html:75
 msgid "Calculate route"
-msgstr "Calcolare il percorso"
+msgstr "Beräkna rutt"
 
 #: plugins/inherit/cms_plugins.py:17
 msgid "Inherit Plugins from Page"
-msgstr "Eredita Plugins dalla Pagina"
+msgstr "Ärv plugins från sida"
 
 #: plugins/inherit/forms.py:19
 msgid "Language or Page must be filled out"
-msgstr "La Lingua o la Pagina deve essere compilata"
+msgstr "Språk eller Sida måste vara ifylld"
 
 #: plugins/inherit/models.py:10
-msgid "Choose a page to include its plugins into this placeholder, empty will choose current page"
-msgstr "Scegli una pagina da cui includere i plugin in questo segnaposto, vuota sceglierà la pagina corrente"
+msgid ""
+"Choose a page to include its plugins into this placeholder, empty will "
+"choose current page"
+msgstr ""
+"Välj en sida för att inkludera dess plugins till denna platshållare, lämna "
+"blankt för nuvarande sida"
 
 #: plugins/inherit/models.py:11
 msgid "Optional: the language of the plugins you want"
-msgstr "Opzionale: il linguaggio dei plugins che si desidera"
+msgstr "Valfritt: språk på de plugins du vill ha"
 
-#: plugins/link/cms_plugins.py:11
+#: plugins/link/cms_plugins.py:12
 msgid "Link"
-msgstr "Link"
+msgstr "Länk"
 
 #: plugins/link/models.py:11 plugins/link/migrations/0001_initial.py:18
 #: plugins/link/migrations/0004_larger_link_names.py:11
 #: plugins/link/migrations/0004_larger_link_names.py:17
 #: plugins/snippet/models.py:12 plugins/snippet/migrations/0001_initial.py:17
 msgid "name"
-msgstr "nome"
+msgstr "namn"
 
 #: plugins/link/models.py:12 plugins/link/migrations/0001_initial.py:16
 #: plugins/picture/models.py:21 plugins/picture/migrations/0001_initial.py:16
 #: plugins/teaser/models.py:21
 msgid "link"
-msgstr "link"
+msgstr "länk"
 
 #: plugins/link/models.py:13
 msgid "A link to a page has priority over a text link."
-msgstr "Un link ad una pagina ha priorità rispetto ad un link testuale."
+msgstr "En länk till en sida får prioritet över en textlänk."
 
 #: plugins/link/models.py:14
 msgid "mailto"
@@ -982,94 +1033,96 @@ msgstr "mailto"
 
 #: plugins/link/models.py:14
 msgid "An email adress has priority over a text link."
-msgstr "An indirizzo email ha priorità rispetto ad un link testuale."
+msgstr "En e-postadress får prioritet över en textlänk."
 
 #: plugins/picture/cms_plugins.py:9
 msgid "Picture"
-msgstr "Immagine"
+msgstr "Bild"
 
 #: plugins/picture/models.py:15
 msgid "left"
-msgstr "sinistra"
+msgstr "vänster"
 
 #: plugins/picture/models.py:16
 msgid "right"
-msgstr "destra"
+msgstr "höger"
 
 #: plugins/picture/models.py:20 plugins/picture/migrations/0001_initial.py:17
 #: plugins/teaser/models.py:12 plugins/video/models.py:12
 msgid "image"
-msgstr "immagine"
+msgstr "bild"
 
 #: plugins/picture/models.py:21 plugins/picture/models.py:22
 msgid "if present image will be clickable"
-msgstr "se presente, l’immagine sarà cliccabile"
+msgstr "om angiven blir bilden klickbar"
 
 #: plugins/picture/models.py:23 plugins/picture/migrations/0001_initial.py:19
 msgid "alternate text"
-msgstr "testo alternativo"
+msgstr "alternativ text"
 
 #: plugins/picture/models.py:23
 msgid "textual description of the image"
-msgstr "descrizione testuale dell’immagine"
+msgstr "beskrivning av bilden"
 
 #: plugins/picture/models.py:24
 msgid "long description"
-msgstr "descrizione estesa"
+msgstr "lång beskrivning"
 
 #: plugins/picture/models.py:24
 msgid "additional description of the image"
-msgstr "descrizione aggiuntiva dell’immagine"
+msgstr "ytterligare beskrivning av bilden"
 
 #: plugins/picture/models.py:25
 msgid "side"
-msgstr "lato"
+msgstr "sida"
 
 #: plugins/snippet/cms_plugins.py:12 plugins/snippet/models.py:24
 #: plugins/snippet/models.py:32
 msgid "Snippet"
-msgstr "Frammento"
+msgstr "Kodstycke"
 
 #: plugins/snippet/cms_plugins.py:30
 #, python-format
 msgid "Template %(template)s does not exist."
-msgstr "Il modello %(template)s non esiste."
+msgstr "Mallen %(template)s finns inte"
 
 #: plugins/snippet/models.py:13 plugins/snippet/migrations/0001_initial.py:18
 msgid "HTML"
 msgstr "HTML"
 
 #: plugins/snippet/models.py:15
-msgid "Enter a template (i.e. \"snippets/plugin_xy.html\") which will be rendered. "
-msgstr "Inserire un modello (i.e. \"snippets/plugin_xy.html\") che sarà interpretato. "
+msgid ""
+"Enter a template (i.e. \"snippets/plugin_xy.html\") which will be rendered. "
+msgstr ""
+"Ange en mall (t.ex. \"snippets/plugin_xy.html\") som kommer att användas."
 
 #: plugins/snippet/models.py:25
 msgid "Snippets"
-msgstr "Frammento"
+msgstr "Kodstycken"
 
 #: plugins/teaser/cms_plugins.py:9
 msgid "Teaser"
-msgstr "Teaser"
+msgstr "Locktext/Teaser"
 
 #: plugins/teaser/models.py:16
 msgid "If present image will be clickable"
-msgstr "Se presente, l’immagine sarà cliccabile"
+msgstr "Värde gör bilden klickbar."
 
 #: plugins/teaser/models.py:21
 msgid "If present image will be clickable."
-msgstr "Se presente, l’immagine sarà cliccabile."
+msgstr "Värde gör bilden klickbar."
 
 #: plugins/teaser/templates/cms/plugins/teaser.html:11
 msgid "more"
-msgstr "approfondisci"
+msgstr "mer"
 
 #: plugins/text/cms_plugins.py:15
 msgid "Text"
-msgstr "Testo"
+msgstr "Text"
 
 #: plugins/text/models.py:15 plugins/text/migrations/0001_initial.py:16
 msgid "body"
-msgstr "corpo"
+msgstr "innehåll"
 
 #: plugins/text/templates/cms/plugins/widgets/tinymce.html:30
 msgid "Plugins"
@@ -1079,67 +1132,85 @@ msgstr "Plugins"
 #: plugins/text/templates/cms/plugins/widgets/tinymce.html:106
 #: plugins/text/templates/cms/plugins/widgets/wymeditor.html:69
 msgid "Please select a plugin type."
-msgstr "Selezionare un tipo di plugin."
+msgstr "Välj ett plugin"
 
 #: plugins/text/templates/cms/plugins/widgets/tinymce.html:54
 #: plugins/text/templates/cms/plugins/widgets/wymeditor.html:114
 msgid "Edit selected plugin"
-msgstr "Modifica plugin selezionato"
+msgstr "Redigera valt plugin"
 
 #: plugins/text/templates/cms/plugins/widgets/tinymce.html:58
 #: plugins/text/templates/cms/plugins/widgets/tinymce.html:124
 #: plugins/text/templates/cms/plugins/widgets/wymeditor.html:87
 msgid "Text editor does not support editing objects."
-msgstr "L’editor di testo non supporta la modifica di oggetti."
+msgstr "Textredigeraren stödjer inte redigering av objekt."
 
 #: plugins/text/templates/cms/plugins/widgets/tinymce.html:63
 #: plugins/text/templates/cms/plugins/widgets/tinymce.html:129
 #: plugins/text/templates/cms/plugins/widgets/wymeditor.html:92
 msgid "No object selected."
-msgstr "Nessun oggetto selezionato."
+msgstr "Inget objekt valt."
 
 #: plugins/text/templates/cms/plugins/widgets/tinymce.html:112
 #: plugins/text/templates/cms/plugins/widgets/wymeditor.html:75
 msgid "Text editor does not support inserting objects."
-msgstr "L'editor di testo non supporta l'inserimento di oggetti."
+msgstr "Textredigeraren stödjer inte infogning av objekt"
 
 #: plugins/text/templates/cms/plugins/widgets/tinymce.html:133
 #: plugins/text/templates/cms/plugins/widgets/wymeditor.html:96
 msgid "Not a plugin object"
-msgstr "Non un plugin"
+msgstr "Inte ett plugin-objekt"
 
 #: plugins/text/templates/cms/plugins/widgets/wymeditor.html:110
 #: templates/admin/cms/page/widgets/installed_plugins_inc.html:4
 msgid "Available Plugins"
-msgstr "Plugin disponibili"
+msgstr "Tillgängliga plugins"
 
 #: plugins/text/templates/cms/plugins/widgets/wymeditor.html:113
 msgid "Insert plugin"
-msgstr "Inserisci plugin"
+msgstr "Lägg till plugin"
 
-#: plugins/twitter/cms_plugins.py:8
+#: plugins/twitter/cms_plugins.py:10
 msgid "Twitter"
 msgstr "Twitter"
 
+#: plugins/twitter/cms_plugins.py:31
+msgid "Twitter Search"
+msgstr "Twitter-sökning"
+
 #: plugins/twitter/models.py:7
 msgid "twitter user"
-msgstr "utente twitter"
+msgstr "twitter-användare"
 
-#: plugins/twitter/models.py:8
+#: plugins/twitter/models.py:8 plugins/twitter/models.py:17
 msgid "count"
-msgstr ""
+msgstr "antal"
 
-#: plugins/twitter/models.py:8
+#: plugins/twitter/models.py:8 plugins/twitter/models.py:17
 msgid "Number of entries to display"
-msgstr "Numero di elementi da mostrare"
+msgstr "antal inlägg att visa"
 
 #: plugins/twitter/models.py:9
 msgid "link hint"
-msgstr ""
+msgstr "länktips"
 
 #: plugins/twitter/models.py:9
 msgid "If given, the hint is displayed as link to your Twitter profile."
-msgstr "Se dato, il suggerimento viene visualizzato come collegamento verso il tuo profilo Twitter."
+msgstr "Länktipset visas som en länk till din Twitter-profil."
+
+#: plugins/twitter/models.py:16
+msgid "query"
+msgstr "förfrågan"
+
+#: plugins/twitter/models.py:16
+msgid ""
+"Example: \"brains AND zombies AND from:umbrella AND to:nemesis\": tweets "
+"from the user \"umbrella\" to the user \"nemesis\" that contain the words "
+"\"brains\" and \"zombies\""
+msgstr ""
+"Exempel: \"brains AND zombies AND from:umbrella AND to:nemesis\": tweets "
+"från användaren \"umbrella\" till användaren \"nemesis\" som innehåller "
+"orden \"brains\" och \"zombies\""
 
 #: plugins/video/cms_plugins.py:10
 msgid "Video"
@@ -1147,661 +1218,710 @@ msgstr "Video"
 
 #: plugins/video/cms_plugins.py:42
 msgid "Color Settings"
-msgstr "Impostazioni colore"
+msgstr "Färginställningar"
 
 #: plugins/video/models.py:10
 msgid "movie file"
-msgstr "file video"
+msgstr "film fil"
 
 #: plugins/video/models.py:10
 msgid "use .flv file or h264 encoded video file"
-msgstr "Usa file video codificato .flv o h264"
+msgstr "använd .flv-fil eller en h264-kodad videofil"
 
 #: plugins/video/models.py:11
 msgid "movie url"
-msgstr "indirizzo video"
+msgstr "film url"
 
 #: plugins/video/models.py:11
-msgid "vimeo or youtube video url. Example: http://www.youtube.com/watch?v=YFa59lK-kpo"
-msgstr "indirizzo video vimeo o youtube. Esempio: http://www.youtube.com/watch?v=YFa59lK-kpo"
+msgid ""
+"vimeo or youtube video url. Example: http://www.youtube.com/watch?v=YFa59lK-"
+"kpo"
+msgstr ""
+"vimeo eller youtube video url. Exampel: http://www.youtube.com/watch?"
+"v=YFa59lK-kpo"
 
 #: plugins/video/models.py:12
 msgid "preview image file"
-msgstr "anteprima immagine"
+msgstr "förhandsvisa filmfil"
 
 #: plugins/video/models.py:17
 msgid "auto play"
-msgstr "riproduci automaticamente"
+msgstr "spela automatiskt"
 
 #: plugins/video/models.py:18
 msgid "auto hide"
-msgstr "nascondi automaticamente"
+msgstr "göm automatiskt"
 
 #: plugins/video/models.py:19
 msgid "fullscreen"
-msgstr "schermo intero"
+msgstr "fullskärm"
 
 #: plugins/video/models.py:20
 msgid "loop"
-msgstr ""
+msgstr "loopa"
 
 #: plugins/video/models.py:23
 msgid "background color"
-msgstr "colore di sfondo"
+msgstr "bakgrundsfärg"
 
 #: plugins/video/models.py:23 plugins/video/models.py:24
 #: plugins/video/models.py:25 plugins/video/models.py:26
 #: plugins/video/models.py:27 plugins/video/models.py:28
 #: plugins/video/models.py:29 plugins/video/models.py:30
 msgid "Hexadecimal, eg ff00cc"
-msgstr "Esadecimale, ad esempio: ff00cc"
+msgstr "Hexadecimal, t.ex. ff00cc"
 
 #: plugins/video/models.py:24
 msgid "text color"
-msgstr "colore testo"
+msgstr "textfärg"
 
 #: plugins/video/models.py:25
 msgid "seekbar color"
-msgstr ""
+msgstr "tidslinje färg"
 
 #: plugins/video/models.py:26
 msgid "seekbar bg color"
-msgstr ""
+msgstr "tidslinje bg-färg"
 
 #: plugins/video/models.py:27
 msgid "loadingbar color"
-msgstr ""
+msgstr "färg laddningsikon"
 
 #: plugins/video/models.py:28
 msgid "button out color"
-msgstr ""
+msgstr "knappfärg utanför"
 
 #: plugins/video/models.py:29
 msgid "button over color"
-msgstr ""
+msgstr "knappfärg över"
 
 #: plugins/video/models.py:30
 msgid "button highlight color"
-msgstr ""
+msgstr "knappfärg aktiv"
 
 #: plugins/video/templates/cms/plugins/video.html:3
-msgid "Missing flash plugin. Download <a href=\"http://adobe.com/flashplayer\">here</a>"
-msgstr "Plugin flash mancante. Scaricare <a href=\"http://adobe.com/flashplayer\">qui</a>"
+msgid ""
+"Missing flash plugin. Download <a href=\"http://adobe.com/flashplayer"
+"\">here</a>"
+msgstr ""
+"Flash-plugin saknas. Ladda ner <a href=\"http://adobe.com/flashplayer\">här</"
+"a>"
 
 #: templates/admin/page_submit_line.html:3
 #: templates/admin/cms/page/change_form.html:273
-#: templates/admin/cms/page/plugin_change_form.html:111
+#: templates/admin/cms/page/plugin_change_form.html:112
 msgid "Save"
-msgstr "Salva"
+msgstr "Spara"
 
 #: templates/admin/page_submit_line.html:7
 #, python-format
 msgid "Delete %(language)s translation"
-msgstr "Elimina traduzione %(language)s"
+msgstr "Radera översättning för %(language)s"
 
 #: templates/admin/page_submit_line.html:11
 msgid "Save as new"
-msgstr "Salva come nuovo"
+msgstr "Spara som ny"
 
 #: templates/admin/page_submit_line.html:12
 msgid "Save and add another"
-msgstr "Salva e aggiungi un altro"
+msgstr "Spara och lägg till"
 
 #: templates/admin/page_submit_line.html:13
 #: templates/admin/cms/page/change_form.html:274
 msgid "Save and continue editing"
-msgstr "Salva e continua le modifiche"
+msgstr "Spara och fortsätt redigera"
 
 #: templates/admin/cms/mail/approvement_required.html:5
 #, python-format
-msgid "Page <a href=\"%(admin_url)s\">%(page)s</a> may require approvement by you."
+msgid ""
+"Page <a href=\"%(admin_url)s\">%(page)s</a> may require approvement by you."
 msgstr ""
+"Sida <a href=\"%(admin_url)s\">%(page)s</a> kan behöva godkännande av dig."
 
 #: templates/admin/cms/mail/approvement_required.html:8
 msgid "Last changes"
-msgstr "Ultime modifiche"
+msgstr "Senaste ändringar"
 
 #: templates/admin/cms/mail/base.html:55
 #, python-format
 msgid "Log in to administration <a href=\"%(login_url)s\">here</a>."
-msgstr "Accedi alla pagina d'amministrazione da <a href=\"%(login_url)s\">qui</a>."
+msgstr "Logga in på administrationssida <a href=\"%(login_url)s\">här</a>."
 
 #: templates/admin/cms/mail/page_user_change.html:7
 msgid "Username:"
-msgstr "Nome utente:"
+msgstr "Användarnamn:"
 
 #: templates/admin/cms/mail/page_user_change.html:11
 msgid "Password:"
-msgstr "Password:"
+msgstr "Lösenord:"
 
 #: templates/admin/cms/page/change_form.html:3
 #: templates/admin/cms/page/plugin_forms_history.html:3
 #: templates/admin/cms/page/plugin_forms_ok.html:3
 msgid "Change a page"
-msgstr "Modifica una pagina"
+msgstr "Ändra en sida"
 
 #: templates/admin/cms/page/change_form.html:62
 #: templates/admin/cms/page/change_list.html:8
-#: templates/admin/cms/page/plugin_change_form.html:66
+#: templates/admin/cms/page/plugin_change_form.html:67
 #: templates/admin/cms/page/recover_form.html:14
 #: templates/admin/cms/page/revision_form.html:6
 msgid "Home"
-msgstr "Home"
+msgstr "Hem"
 
 #: templates/admin/cms/page/change_form.html:71
 msgid "Approve page deletion"
-msgstr "Approva eliminazione pagina"
+msgstr "Godkänn borttagning av sida"
 
 #: templates/admin/cms/page/change_form.html:77
 #, python-format
 msgid "(requires approvement at %(moderation_level)s level)"
-msgstr "(richiede approvazione al livello %(moderation_level)s)"
+msgstr "(kräver godkännande på nivå %(moderation_level)s)"
 
 #: templates/admin/cms/page/change_form.html:78
 msgid "(you can perform actions on this page directly)"
-msgstr "(puoi effettuare direttamente operazioni su questa pagina)"
+msgstr "(du kan utföra ändringar på denna sida direkt)"
 
 #: templates/admin/cms/page/change_form.html:91
 msgid "Remove delete request"
-msgstr "Rimuovi richiesta di eliminazione"
+msgstr "Ta bort raderingsförfrågan"
 
 #: templates/admin/cms/page/change_form.html:93
 msgid "Approve delete"
-msgstr "Approva eliminazione"
+msgstr "Godkänn radering"
 
 #: templates/admin/cms/page/change_form.html:93
 msgid "Approve"
-msgstr "Approva"
+msgstr "Godkänn"
 
 #: templates/admin/cms/page/change_form.html:93
 #: templates/admin/cms/page/change_form.html:94
 #: templates/admin/cms/page/change_list_tree.html:12
 msgid "draft"
-msgstr "bozza"
+msgstr "utkast"
 
 #: templates/admin/cms/page/change_form.html:94
 msgid "Preview"
-msgstr "Anteprima"
+msgstr "Förhandsgranska"
 
 #: templates/admin/cms/page/change_form.html:97
 #: templates/admin/cms/page/revision_form.html:10
 msgid "History"
-msgstr "Cronologia"
+msgstr "Historik"
 
 #: templates/admin/cms/page/change_form.html:98
 msgid "View on site"
-msgstr "Vedi sul sito"
+msgstr "Visa på sajt"
 
 #: templates/admin/cms/page/change_form.html:128
-#: templates/admin/cms/page/plugin_change_form.html:83
+#: templates/admin/cms/page/plugin_change_form.html:84
 msgid "Please correct the error below."
 msgid_plural "Please correct the errors below."
-msgstr[0] "Per favore correggi l'errore sottostante."
-msgstr[1] "Per favore correggi gli errori sottostanti"
+msgstr[0] "Rätta till nedanstående fel."
+msgstr[1] "Rätta till nedanstående fel."
 
 #: templates/admin/cms/page/change_form.html:148
 msgid "All permissions"
-msgstr "Tutti i permessi"
+msgstr "Alla rättigheter"
 
 #: templates/admin/cms/page/change_form.html:149
 #: templates/admin/cms/page/change_form.html:161
 #: templates/admin/cms/page/loading.html:2
 msgid "Loading..."
-msgstr "Caricamento in corso..."
+msgstr "Laddar..."
 
 #: templates/admin/cms/page/change_form.html:160
 msgid "Page states"
-msgstr ""
+msgstr "Sidlägen"
 
 #: templates/admin/cms/page/change_form.html:183
 #, python-format
-msgid "This page must be moderated at level %(moderation_level)s, post a message for moderator."
+msgid ""
+"This page must be moderated at level %(moderation_level)s, post a message "
+"for moderator."
 msgstr ""
+"Denna sida måste godkännas på nivå %(moderation_level)s, skicka ett "
+"meddelande till moderatorn."
 
 #: templates/admin/cms/page/change_form.html:185
 msgid "Request approvemet"
-msgstr "Richiedi approvazione"
+msgstr "Efterfråga godkännande"
 
 #: templates/admin/cms/page/change_list.html:3
 msgid "List of pages"
-msgstr "Lista pagina"
+msgstr "Lista över sidor"
 
-#: templates/admin/cms/page/change_list.html:57
+#: templates/admin/cms/page/change_list.html:56
 msgid "Successfully moved"
-msgstr "Spostato con successo"
+msgstr "Flytt genomförd"
 
-#: templates/admin/cms/page/change_list.html:62
+#: templates/admin/cms/page/change_list.html:61
 msgid "An error occured. Please reload the page"
-msgstr "Si è verificato un errore. Si prega di ricaricare la pagina"
+msgstr "Ett fel uppstod. Var vänlig ladda om sidan"
 
-#: templates/admin/cms/page/change_list.html:83
+#: templates/admin/cms/page/change_list.html:82
 #, python-format
 msgid "Recover deleted %(name)s"
-msgstr "Recupera %(name)s eliminato"
+msgstr "Återskapa borttagen %(name)s"
 
-#: templates/admin/cms/page/change_list.html:86
+#: templates/admin/cms/page/change_list.html:85
 #, python-format
 msgid "Add %(name)s"
-msgstr "Aggiungi %(name)s"
+msgstr "Lägg till %(name)s"
 
-#: templates/admin/cms/page/change_list.html:98
+#: templates/admin/cms/page/change_list.html:97
 msgid "Pages on:"
-msgstr ""
+msgstr "Sidor på:"
 
-#: templates/admin/cms/page/change_list.html:115
+#: templates/admin/cms/page/change_list.html:114
 msgid "Filter:"
-msgstr "Filtro:"
+msgstr "Filter:"
 
-#: templates/admin/cms/page/change_list.html:115
+#: templates/admin/cms/page/change_list.html:114
 msgid "on"
-msgstr "on"
+msgstr "på"
 
-#: templates/admin/cms/page/change_list.html:115
+#: templates/admin/cms/page/change_list.html:114
 msgid "off"
-msgstr "off"
+msgstr "av"
 
-#: templates/admin/cms/page/change_list.html:117
+#: templates/admin/cms/page/change_list.html:116
 msgid "Filter"
-msgstr "Filtro"
+msgstr "Filter"
 
 #: templates/admin/cms/page/change_list_tree.html:8
 msgid "actions"
-msgstr "azioni"
+msgstr "åtgärder"
 
 #: templates/admin/cms/page/change_list_tree.html:10
 msgid "moderate"
-msgstr "modera"
+msgstr "moderera"
 
 #: templates/admin/cms/page/change_list_tree.html:13
 msgid "published"
-msgstr "pubblicato"
+msgstr "publicera"
 
 #: templates/admin/cms/page/change_list_tree.html:15
 msgid "start"
-msgstr "inizio"
+msgstr "start"
 
 #: templates/admin/cms/page/change_list_tree.html:16
 msgid "end"
-msgstr "fine"
+msgstr "slut"
 
 #: templates/admin/cms/page/change_list_tree.html:18
 msgid "last changes"
-msgstr "ultime modifiche"
+msgstr "senaste ändringar"
 
 #: templates/admin/cms/page/menu_item.html:5
 msgid "select this page"
-msgstr "seleziona questa pagina"
+msgstr "välj denna sida"
 
 #: templates/admin/cms/page/menu_item.html:5
 #: templates/admin/cms/page/menu_item.html:6
 msgid "edit this page"
-msgstr "modifica questa pagina"
+msgstr "redigera denna sida"
 
 #: templates/admin/cms/page/menu_item.html:6
-#: templates/cms/toolbar/toolbar.html:891
-#: templates/cms/toolbar/toolbar.html:912
+#: templates/cms/toolbar/toolbar.html:112
+#: templates/cms/toolbar/toolbar.html:136
 msgid "edit"
-msgstr "modifica"
+msgstr "redigera"
 
 #: templates/admin/cms/page/menu_item.html:16
 msgid "insert above"
-msgstr "inserisci prima"
+msgstr "sätt in ovanför"
 
 #: templates/admin/cms/page/menu_item.html:17
 msgid "insert below"
-msgstr "inserisci dopo"
+msgstr "sätt in under"
 
 #: templates/admin/cms/page/menu_item.html:19
 msgid "insert inside"
-msgstr "inserisci all'interno"
+msgstr "sätt in i"
 
 #: templates/admin/cms/page/menu_item.html:23
 msgid "softroot"
-msgstr ""
+msgstr "mjuk rot"
 
 #: templates/admin/cms/page/menu_item.html:23
 msgid "home"
-msgstr "Home"
+msgstr "hem"
 
 #: templates/admin/cms/page/menu_item.html:26
 #, python-format
 msgid "Edit this page in %(language)s "
-msgstr "Modifica questa pagina in %(language)s"
+msgstr "Redigera denna sida på %(language)s"
 
 #: templates/admin/cms/page/menu_item.html:33
 msgid "Cut"
-msgstr "Taglia"
+msgstr "Klipp"
 
 #: templates/admin/cms/page/menu_item.html:33
 msgid "cut"
-msgstr "taglia"
+msgstr "klipp"
 
 #: templates/admin/cms/page/menu_item.html:34
 msgid "Copy"
-msgstr "Copia"
+msgstr "Kopiera"
 
 #: templates/admin/cms/page/menu_item.html:34
 msgid "copy"
-msgstr "copia"
+msgstr "kopiera"
 
 #: templates/admin/cms/page/menu_item.html:37
 #: templates/admin/cms/page/menu_item.html:41
 msgid "Add Child"
-msgstr "Aggiungi figlio"
+msgstr "Lägg till undersida"
 
 #: templates/admin/cms/page/menu_item.html:37
 #: templates/admin/cms/page/menu_item.html:41
 msgid "add"
-msgstr "aggiungi"
+msgstr "lägg till"
 
 #: templates/admin/cms/page/menu_item.html:65
-#: templates/cms/toolbar/toolbar.html:864
+#: templates/cms/toolbar/toolbar.html:85
 msgid "Approve directly"
-msgstr "Approva direttamente"
+msgstr "Godkänn direkt"
 
 #: templates/admin/cms/page/menu_item.html:67
 #: templates/admin/cms/page/menu_item.html:79
 #: templates/admin/cms/page/menu_item.html:81
 msgid "view"
-msgstr "vedi"
+msgstr "vy"
 
 #: templates/admin/cms/page/menu_item.html:72
 msgid "Unpublish"
-msgstr "Sospendi la pubblicazione"
+msgstr "Avpublicera"
 
 #: templates/admin/cms/page/menu_item.html:73
 msgid "Publish"
-msgstr "Pubblica"
+msgstr "Publicera"
 
 #: templates/admin/cms/page/menu_item.html:79
 msgid "View on page"
-msgstr "Vedi sulla pagina"
+msgstr "Visa på sida"
 
 #: templates/admin/cms/page/moderation_messages.html:4
 msgid "Action"
-msgstr "Azione"
+msgstr "Åtgärd"
 
 #: templates/admin/cms/page/moderation_messages.html:5
 msgid "Created"
-msgstr "Creato"
+msgstr "Skapad"
 
 #: templates/admin/cms/page/moderation_messages.html:7
 msgid "Message"
-msgstr "Messaggio"
+msgstr "Meddelande"
 
 #: templates/admin/cms/page/permissions.html:7
 msgid "Group"
-msgstr "Gruppo"
+msgstr "Grupp"
 
 #: templates/admin/cms/page/permissions.html:8
 msgid "Can edit"
-msgstr "Può apportare modifiche"
+msgstr "Kan redigera"
 
 #: templates/admin/cms/page/permissions.html:9
 msgid "Can add"
-msgstr "Può aggiungere"
+msgstr "Kan lägga till"
 
 #: templates/admin/cms/page/permissions.html:10
 msgid "Can delete"
-msgstr "Può eliminare"
+msgstr "Kan ta bort"
 
 #: templates/admin/cms/page/permissions.html:11
 msgid "Can publish"
-msgstr "Può pubblicare"
+msgstr "Kan publicera"
 
 #: templates/admin/cms/page/permissions.html:12
 msgid "Can change permissions"
-msgstr "Può cambiare i permessi"
+msgstr "Kan ändra rättigheter"
 
 #: templates/admin/cms/page/permissions.html:13
 msgid "Can move"
-msgstr "Può spostare"
+msgstr "Kan flytta"
 
 #: templates/admin/cms/page/permissions.html:20
 #: templates/admin/cms/page/permissions.html:21
 msgid "(global)"
-msgstr "(globale)"
+msgstr "(global)"
 
 #: templates/admin/cms/page/permissions.html:25
 msgid "(current)"
-msgstr "(corrente)"
+msgstr "(nuvarande)"
 
 #: templates/admin/cms/page/permissions.html:41
 msgid "All"
-msgstr "Tutti"
+msgstr "Alla"
 
 #: templates/admin/cms/page/permissions.html:49
 msgid "Page doesn't inherit any permissions."
-msgstr "La pagina non eredita permessi."
+msgstr "Sidan ärver inga rättigheter"
 
 #: templates/admin/cms/page/plugin_forms_history.html:9
 msgid "An old revision of a plugin can not be saved!"
-msgstr "Una versione precedente di un plugin non può essere salvata!"
+msgstr "En gammal version av ett plugin kan inte sparas."
 
 #: templates/admin/cms/page/plugin_forms_ok.html:17
 msgid "Plugin saved successfully."
-msgstr "Plugin salvato con successo."
+msgstr "Plugin sparat."
 
 #: templates/admin/cms/page/recover_form.html:17
 #, python-format
 msgid "Recover deleted %(verbose_name)s"
-msgstr "Recupera %(verbose_name)s cancellata"
+msgstr "Återskapa borttagen %(verbose_name)s"
 
 #: templates/admin/cms/page/recover_form.html:24
 msgid "Press the save button below to recover this version of the object."
-msgstr "Premi il pulsante 'salva' sottostante per recuperare questa versione dell'oggetto."
+msgstr "Tryck på spara-knappen för att återskapa denna version av objektet."
 
 #: templates/admin/cms/page/revision_form.html:11
 #, python-format
 msgid "Revert %(verbose_name)s"
-msgstr "Ripristina %(verbose_name)s"
+msgstr "Återgå till %(verbose_name)s"
 
 #: templates/admin/cms/page/revision_form.html:24
 msgid "Press the save button below to revert to this version of the object."
-msgstr "Premi il pulsante salva qui sotto per ripristinare questa versione dell'oggetto"
+msgstr ""
+"Tryck på spara-knappen nedan för att återgå till denna version av objektet."
 
 #: templates/admin/cms/page/dialog/copy.html:4
 msgid "Copy options"
-msgstr "Copia opzioni"
+msgstr "Kopieringsalternativ"
 
 #: templates/admin/cms/page/dialog/copy.html:6
 msgid "Choose copy options"
-msgstr "Seleziona opzioni di copia"
+msgstr "Välj kopieringsalternativ"
 
-#: templates/admin/cms/page/widgets/installed_plugins_inc.html:10
+#: templates/admin/cms/page/widgets/installed_plugins_inc.html:7
+msgid "Generic"
+msgstr "Allmän"
+
+#: templates/admin/cms/page/widgets/installed_plugins_inc.html:15
 #: templates/cms/toolbar/add_plugins.html:6
 msgid "Add Plugin"
-msgstr "Aggiungi plugin"
+msgstr "Lägg till plugin"
 
-#: templates/admin/cms/page/widgets/installed_plugins_inc.html:14
+#: templates/admin/cms/page/widgets/installed_plugins_inc.html:18
 msgid "From Language"
-msgstr "Dalla lingua"
+msgstr "Från språk"
 
-#: templates/admin/cms/page/widgets/installed_plugins_inc.html:21
+#: templates/admin/cms/page/widgets/installed_plugins_inc.html:25
 msgid "Copy Plugins"
-msgstr "Copia Plugins"
+msgstr "Kopiera plugins"
 
-#: templates/admin/cms/page/widgets/plugin_editor.html:10
+#: templates/admin/cms/page/widgets/plugin_editor.html:12
 msgid "You must save the page first to add plugins."
-msgstr "Devi salvare la pagina prima di aggiungere plugin"
-
-#: templates/admin/cms/page/widgets/plugin_editor.html:13
-msgid "No Plugin selected. Selected one on the left side"
-msgstr "Nessun plugin selezionato. Seleziona un plugin sulla sinistra"
+msgstr "Du måste spara sidan för att kunna lägga till plugins."
 
 #: templates/admin/cms/page/widgets/plugin_editor.html:15
-msgid "No Plugins present. Add a plugin to this placeholder-slot."
-msgstr ""
+msgid "No Plugin selected. Selected one on the left side"
+msgstr "Inget plugin valt. Välj ett till vänster på sidan."
 
-#: templates/cms/toolbar/toolbar.html:760
+#: templates/admin/cms/page/widgets/plugin_editor.html:17
+msgid "No Plugins present. Add a plugin to this placeholder-slot."
+msgstr "Inget plugin har lagts till. Lägg till ett plugin till denna plats."
+
+#: templates/cms/toolbar/add_plugins.html:10
+msgid "Available plugins"
+msgstr "Plugins"
+
+#: templates/cms/toolbar/toolbar.html:26
 #, python-format
 msgid "Move to %(name)s"
-msgstr "Muovi verso %(name)s"
+msgstr "Flytta till %(name)s"
 
-#: templates/cms/toolbar/toolbar.html:806
+#: templates/cms/toolbar/toolbar.html:27
 msgid "Are you sure you want to delete this plugin?"
-msgstr "Sei sicuro di voler eliminare questo plugin?"
+msgstr "Är du säker på att du vill ta bort detta plugin?"
 
-#: templates/cms/toolbar/toolbar.html:835
+#: templates/cms/toolbar/toolbar.html:56
 msgid "Edit mode"
-msgstr "Modalità di modifca"
+msgstr "Redigeringsläge"
 
-#: templates/cms/toolbar/toolbar.html:842
+#: templates/cms/toolbar/toolbar.html:63
 msgid "Status"
-msgstr "Stato"
+msgstr "Status"
 
-#: templates/cms/toolbar/toolbar.html:853
+#: templates/cms/toolbar/toolbar.html:74
 msgid "Username"
-msgstr "Nome utente"
+msgstr "Användarnamn"
 
-#: templates/cms/toolbar/toolbar.html:857
-#: templates/cms/toolbar/toolbar.html:858
+#: templates/cms/toolbar/toolbar.html:78 templates/cms/toolbar/toolbar.html:79
 msgid "login"
 msgstr "login"
 
-#: templates/cms/toolbar/toolbar.html:869
+#: templates/cms/toolbar/toolbar.html:90
 msgid "Template"
-msgstr "Modello"
+msgstr "Mall"
 
-#: templates/cms/toolbar/toolbar.html:880
+#: templates/cms/toolbar/toolbar.html:101
 msgid "move"
-msgstr "muovi"
+msgstr "flytta"
 
-#: templates/cms/toolbar/toolbar.html:880
+#: templates/cms/toolbar/toolbar.html:101
 msgid "Move/add Pages"
-msgstr "Muovi/aggiungi pagina"
+msgstr "Flytta/lägg till sidor"
 
-#: templates/cms/toolbar/toolbar.html:882
+#: templates/cms/toolbar/toolbar.html:103
 msgid "add child"
-msgstr "aggiungi figlio"
+msgstr "lägg till undersida"
 
-#: templates/cms/toolbar/toolbar.html:882
+#: templates/cms/toolbar/toolbar.html:103
 msgid "Add child page"
-msgstr "Aggiungi pagina figlio"
+msgstr "Lägg till undersida"
 
-#: templates/cms/toolbar/toolbar.html:883
+#: templates/cms/toolbar/toolbar.html:104
 msgid "add sibling"
-msgstr ""
+msgstr "lägg till syskon"
 
-#: templates/cms/toolbar/toolbar.html:883
+#: templates/cms/toolbar/toolbar.html:104
 msgid "Add sibling page"
-msgstr ""
+msgstr "Lägg till syskon-sida"
 
-#: templates/cms/toolbar/toolbar.html:885
+#: templates/cms/toolbar/toolbar.html:106
 msgid "Delete Page"
-msgstr "Elimina pagina"
+msgstr "Radera sida"
 
-#: templates/cms/toolbar/toolbar.html:891
+#: templates/cms/toolbar/toolbar.html:112
 msgid "Site Administration"
-msgstr "Amministrazione sito"
+msgstr "Sajtadministration"
 
-#: templates/cms/toolbar/toolbar.html:893
+#: templates/cms/toolbar/toolbar.html:114
 msgid "Page Settings"
-msgstr "Impostazioni pagina"
+msgstr "Sidinställningar"
 
-#: templates/cms/toolbar/toolbar.html:895
+#: templates/cms/toolbar/toolbar.html:116
 msgid "history"
-msgstr "cronologia"
+msgstr "historik"
 
-#: templates/cms/toolbar/toolbar.html:895
+#: templates/cms/toolbar/toolbar.html:116
 msgid "View History"
-msgstr "Visualizza cronologia"
+msgstr "Visa historik"
 
-#: templates/cms/toolbar/toolbar.html:901
-msgid "Lock"
-msgstr "Blocca"
-
-#: templates/cms/toolbar/toolbar.html:901
+#: templates/cms/toolbar/toolbar.html:123
+#: templates/cms/toolbar/toolbar.html:124
 msgid "Logout"
-msgstr "Logout"
+msgstr "Logga ut"
 
-#: templates/cms/toolbar/toolbar.html:903
+#: templates/cms/toolbar/toolbar.html:124
+msgid "Lock"
+msgstr "Fäst"
+
+#: templates/cms/toolbar/toolbar.html:127
 msgid "Close"
-msgstr "Chiudi"
+msgstr "Stäng"
 
-#: templates/cms/toolbar/toolbar.html:914
+#: templates/cms/toolbar/toolbar.html:138
 msgid "up"
-msgstr "su"
+msgstr "upp"
 
-#: templates/cms/toolbar/toolbar.html:915
+#: templates/cms/toolbar/toolbar.html:139
 msgid "down"
-msgstr "giù"
+msgstr "ner"
 
-#: templates/cms/toolbar/toolbar.html:917
+#: templates/cms/toolbar/toolbar.html:141
 msgid "Settings"
-msgstr "Impostazioni"
+msgstr "Inställningar"
 
-#: templates/cms/toolbar/toolbar.html:919
+#: templates/cms/toolbar/toolbar.html:143
 msgid "Delete Plugin"
-msgstr "Elimina plugin"
+msgstr "Radera plugin"
 
 #: templatetags/cms_admin.py:65
 msgid "Unbind page moderation"
-msgstr ""
+msgstr "Frigör från sidmoderering"
 
 #: templatetags/cms_admin.py:66
 msgid "Unbind children moderation"
-msgstr ""
+msgstr "Frigör undersidor från moderering"
 
 #: templatetags/cms_admin.py:67
 msgid "Unbind descendants moderation"
-msgstr ""
+msgstr "Frigör undernivåer från moderering"
 
-#: templatetags/cms_tags.py:401 templatetags/cms_tags.py:674
+#: templatetags/cms_tags.py:69
 #, python-format
-msgid "Reverse ID not found on %(domain)s"
-msgstr "ID inverso non trovato su %(domain)s"
+msgid "Page not found on %(domain)s"
+msgstr "Sidan hittades inte på %(domain)s"
 
-#: templatetags/cms_tags.py:402
-#, python-format
-msgid ""
-"A page_id_url template tag didn't found a page with the reverse_id %(reverse_id)s\n"
-"The url of the page was: http://%(host)s%(path)s"
-msgstr ""
-"Un tag page_id_url non ha trovato la pagina con il reverse_id %(reverse_id)s\n"
-"L'indirizzo della pagina era:  http://%(host)s%(path)s"
-
-#: templatetags/cms_tags.py:675
+#: templatetags/cms_tags.py:70
 #, python-format
 msgid ""
-"A show_placeholder_by_id template tag didn't found a page with the reverse_id %(reverse_id)s\n"
-"The url of the page was: http://%(host)s%(path)s"
+"A template tag couldn't find the page with lookup arguments `%(page_lookup)"
+"s\n"
+"`. The URL of the request was: http://%(host)s%(path)s"
 msgstr ""
-"Un tag show_placeholder_by_id non ha trovato la pagina con il reverse_id %(reverse_id)s\n"
-"L'indirizzo della pagina era:  http://%(host)s%(path)s"
+"Ett mallkommando kunde inte hitta sidan med sökparametrarna `%(page_lookup)"
+"s\n"
+"`. Efterfrågad URL var: http://%(host)s%(path)s"
 
-#: tests/util/menu_extender.py:7
-msgid "Sublevel"
-msgstr "Sottolivello"
-
-#: tests/util/menu_extender.py:8
-msgid "Sublevel3"
-msgstr "Sottolivello3"
-
-#: tests/util/menu_extender.py:11
-msgid "Sublevel 2"
-msgstr "Sottolivello 2"
-
-#: utils/moderator.py:84
+#: utils/moderator.py:82
 msgid "parent first"
-msgstr "genitore prima"
+msgstr "förälder först"
 
-#: utils/moderator.py:91
+#: utils/moderator.py:89
 msgid "approve"
-msgstr "approva"
+msgstr "godkänn"
 
-#: utils/moderator.py:243
+#: utils/moderator.py:240
 #, python-format
 msgid "CMS - Page %s requires approvement."
-msgstr "CMS - La pagina %s richiede l'approvazione"
+msgstr "CMS - Sida %s kräver godkännande."
 
 #: utils/permissions.py:206
 msgid "CMS - your user account was created."
-msgstr "CMS - il tuo account utente è stato creato"
+msgstr "CMS - ditt användarkonto har skapats."
 
 #: utils/permissions.py:208
 msgid "CMS - your user account was changed."
-msgstr "CMS - il tuo account utente è stato modificato"
+msgstr "CMS - ditt användarkonto har ändrats."
+
+#~ msgid "menu login required"
+#~ msgstr "meny - login krävs"
+
+#~ msgid "only show this page in the menu if the user is logged in"
+#~ msgstr "visa denna sida i menyn endast om användaren är inloggad"
+
+#~ msgid "Twitter recent entries plugin"
+#~ msgstr "Twitter senaste inlägg-plugin"
+
+#~ msgid "overlay"
+#~ msgstr "överlägg"
+
+#~ msgid "blank"
+#~ msgstr "tom"
+
+#~ msgid "self"
+#~ msgstr "själv"
+
+#~ msgid "parent"
+#~ msgstr "förälder"
+
+#~ msgid "opaque"
+#~ msgstr "ogenomskinlig"
+
+#~ msgid "transparent"
+#~ msgstr "transparent"
+
+#~ msgid "controller style"
+#~ msgstr "stil på kontroller"
+
+#~ msgid "mute"
+#~ msgstr "ljudlöst"
+
+#~ msgid "mute only"
+#~ msgstr "endast ljudlöst"
 
 #~ msgid "volume"
-#~ msgstr "volume"
+#~ msgstr "volym"
+
+#~ msgid "in range <0, 100>"
+#~ msgstr "i området <0, 100>"
+
+#~ msgid "Revisions"
+#~ msgstr "Revisioner"
+
+#~ msgid "Wanted language has not been translated yet."
+#~ msgstr "Önskad språk har inte översatts än."

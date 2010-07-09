@@ -19,9 +19,10 @@ class PlaceholderNode(template.Node):
         else:
             width = self.width
         placeholder = self.placeholder.resolve(context)
-        request.placeholder_media += placeholder.get_media(request, context)
         if not placeholder:
             return ''
+        if hasattr(request, 'placeholder_media'):
+            request.placeholder_media += placeholder.get_media(request, context)
         return safe(placeholder.render(context, width))
 
 
